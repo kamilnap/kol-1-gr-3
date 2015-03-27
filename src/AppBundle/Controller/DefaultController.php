@@ -48,6 +48,13 @@ class DefaultController extends Controller
 
     /* I */
 
+    	/**
+	 * @Route("/in-one-ear.html", name="in-one-ear")
+	 */
+	public function inOneEarAction()
+	{
+	    return $this->render('default/in-one-ear.html.twig');
+	}
     /* J */
 
     /* K */
