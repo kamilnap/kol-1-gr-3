@@ -67,6 +67,14 @@ class DefaultController extends Controller
     /* G */
 
     /* H */
+    
+      /**
+     * @Route("/no-man.html", name="no-man")
+     */
+     public function  nomanAction()
+     {
+        return $this->render('default/no-man.html.twig');
+     }
 
     /* I */
 
