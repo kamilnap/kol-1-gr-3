@@ -174,7 +174,13 @@ public function peopleAction()
     return $this->render('default/people.html.twig');
 }
     /* R */
-
+        /**
+        * @Route("/focusontoday.html", name="focusontoday")
+        */
+        public function focusontodayAction()
+        {
+          return $this->render('default/focusontoday.html.twig');
+        }
     /* S */
     /**
      * @Route("/snooze.html", name="snooze")
