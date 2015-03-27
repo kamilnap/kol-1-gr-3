@@ -118,6 +118,13 @@ public function  zrobKomuDobrzeAction()
 }
     /* P */
 
+    /**
+ * @Route("/pasuje.html", name="pasuje")
+ */
+public function pasujeAction()
+{
+    return $this->render('default/pasuje.html.twig');
+}
     /* Q */
 
     /* R */
