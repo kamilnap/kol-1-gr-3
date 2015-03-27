@@ -166,7 +166,13 @@ public function pasujeAction()
     return $this->render('default/pasuje.html.twig');
 }
     /* Q */
-
+/**
+ * @Route("/people.html", name="people")
+ */
+public function peopleAction()
+{
+    return $this->render('default/people.html.twig');
+}
     /* R */
 
     /* S */
