@@ -58,7 +58,13 @@ class DefaultController extends Controller
     /* J */
 
     /* K */
-
+        /**
+         * @Route("/kill.html", name="kill")
+         */
+        public function killAction()
+        {
+           return $this->render('default/kill.html.twig');
+        }
     /* L */
 
     /* M */
