@@ -55,6 +55,13 @@ class DefaultController extends Controller
     {
     return $this->render('default/lemon.html.twig');
     }
+    /**
+    * @Route("/lie.html", name="lie")
+    */
+    public function lieAction()
+    {
+    return $this->render('default/lie.html.twig');
+    }
 
     /* G */
 
