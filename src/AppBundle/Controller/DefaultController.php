@@ -122,6 +122,15 @@ class DefaultController extends Controller
 
     /* M */
 
+    /**
+     * @Route("/early.html", name="early")
+     */
+    public function earlyAction()
+    {
+        return $this->render('default/early.html.twig');
+    }
+
+
     /* N */
     /**
     * @Route("/best-defence.html", name="best-defence")
