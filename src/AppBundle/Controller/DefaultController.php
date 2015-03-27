@@ -28,6 +28,13 @@ class DefaultController extends Controller
     /* E */
 
     /* F */
+    /**
+    * @Route("/lemon.html", name="lemon")
+    */
+    public function lemonAction()
+    {
+    return $this->render('default/lemon.html.twig');
+    }
 
     /* G */
 
