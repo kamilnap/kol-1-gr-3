@@ -84,6 +84,13 @@ class DefaultController extends Controller
     /* M */
 
     /* N */
+    /**
+    * @Route("/best-defence.html", name="best-defence")
+    */
+    public function  bestDefenceAction()
+    {
+        return $this->render('default/best-defence.html.twig');
+    }
 
     /* O */
 
