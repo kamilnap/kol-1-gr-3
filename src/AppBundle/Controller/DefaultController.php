@@ -119,6 +119,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/in-the-land.html.twig');
     }
+    
+    /**
+    * @Route("/laws-catch-flies.html", name="laws-catch-flies")
+    */
+    public function  lawsCatchFliesAction()
+    {
+        return $this->render('default/laws-catch-flies.html.twig');
+    }
 
     /* M */
 
