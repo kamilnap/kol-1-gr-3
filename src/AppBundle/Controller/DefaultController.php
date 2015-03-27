@@ -110,6 +110,14 @@ class DefaultController extends Controller
         {
            return $this->render('default/kill.html.twig');
         }
+        
+         /**
+         * @Route("/kingdom2.html", name="kingdom2")
+         */
+        public function kingdom2Action()
+        {
+           return $this->render('default/kingdom2.html.twig');
+        }
     /* L */
     
     /**
