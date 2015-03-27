@@ -26,7 +26,13 @@ class DefaultController extends Controller
     /* D */
 
     /* E */
-
+     /**
+     * @Route("/whatever-you-do.html", name="whatever-you-do")
+     */
+    public function whateverYouDoAction()
+    {
+        return $this->render('default/whatever-you-do.html.twig');
+    }
     /* F */
 
     /* G */
