@@ -34,7 +34,8 @@ class DefaultController extends Controller
     /* H */
 
     /* I */
-	/**
+
+    	/**
 	 * @Route("/in-one-ear.html", name="in-one-ear")
 	 */
 	public function inOneEarAction()
