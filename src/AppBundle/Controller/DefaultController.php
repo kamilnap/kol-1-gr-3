@@ -166,11 +166,20 @@ class DefaultController extends Controller
 
     /* O */
     /**
+
  * @Route("/zrob-komu-dobrze.html", name="zrob-komu-dobrze")
  */
 public function  zrobKomuDobrzeAction()
 {
     return $this->render('default/zrob-komu-dobrze.html.twig');
+}
+/**
+ * @Route("/zlego-diabli.html", name="zlego-diabli")
+ */
+public function  zlegoDiabliAction()
+{
+    return $this->render('default/zlego-diabli.html.twig');
+
 }
     /* P */
 
