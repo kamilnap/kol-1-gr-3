@@ -139,6 +139,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/best-defence.html.twig');
     }
+    
+    /**
+    * @Route("/discretion.html", name="discretion")
+    */
+    public function  discretionAction()
+    {
+        return $this->render('default/discretion.html.twig');
+    }
 
     /* O */
     /**
