@@ -30,6 +30,14 @@ class DefaultController extends Controller
     /* F */
 
     /* G */
+    
+    /**
+    * @Route("/the-eye-looks.html", name="the-eye-looks")
+    */
+    public function  theEyeLooksAction()
+    {
+        return $this->render('default/the-eye-looks.html.twig');
+    }
 
     /* H */
 
