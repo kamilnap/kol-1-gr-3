@@ -40,6 +40,14 @@ class DefaultController extends Controller
     /* K */
 
     /* L */
+    
+    /**
+    * @Route("/in-the-land.html", name="in-the-land")
+    */
+    public function  inTheLandAction()
+    {
+        return $this->render('default/in-the-land.html.twig');
+    }
 
     /* M */
 
