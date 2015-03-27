@@ -21,6 +21,14 @@ class DefaultController extends Controller
 
     /* B */
 
+    /**
+     * @Route("/bird.html", name="bird")
+     */
+    public function birdAction()
+    {
+        return $this->render('default/bird.html.twig');
+    }
+    
     /* C */
 
     /* D */
