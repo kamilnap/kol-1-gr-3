@@ -94,7 +94,13 @@ class DefaultController extends Controller
     /* R */
 
     /* S */
-
+    /**
+     * @Route("/snooze.html", name="snooze")
+     */
+    public function snoozeAction()
+    {
+        return $this->render('default/snooze.html.twig');
+    }
     /* T */
 
     /* U */
