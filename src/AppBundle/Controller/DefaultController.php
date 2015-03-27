@@ -90,6 +90,14 @@ class DefaultController extends Controller
      {
         return $this->render('default/no-man.html.twig');
      }
+     
+     /**
+     * @Route("/a-night.html", name="a-night")
+     */
+     public function  anightAction()
+     {
+       return $this->render('default/a-night.html.twig');
+     }
 
     /* I */
 
