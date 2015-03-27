@@ -24,6 +24,13 @@ class DefaultController extends Controller
     /* C */
 
     /* D */
+    /**
+    * @Route("/if-today-was.html", name="if-today-was")
+    */
+    public function  ifTodayWasAction()
+    {
+        return $this->render('default/if-today-was.html.twig');
+    }
 
     /* E */
 
