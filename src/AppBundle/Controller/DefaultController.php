@@ -158,12 +158,21 @@ public function  zrobKomuDobrzeAction()
 }
     /* P */
 
+
     /**
  * @Route("/pasuje.html", name="pasuje")
  */
 public function pasujeAction()
 {
     return $this->render('default/pasuje.html.twig');
+}
+/**
+ * @Route("/patrzy.html", name="patrzy")
+ */
+public function patrzyAction()
+{
+    return $this->render('default/patrzy.html.twig');
+
 }
     /* Q */
 
