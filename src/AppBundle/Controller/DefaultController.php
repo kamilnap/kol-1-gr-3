@@ -222,6 +222,13 @@ public function peopleAction()
 {
     return $this->render('default/people.html.twig');
 }
+/**
+ * @Route("/water.html", name="water")
+ */
+public function waterAction()
+{
+    return $this->render('default/water.html.twig');
+}
     /* R */
         /**
         * @Route("/focusontoday.html", name="focusontoday")
