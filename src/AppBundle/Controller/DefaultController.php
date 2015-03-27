@@ -101,7 +101,13 @@ class DefaultController extends Controller
     }
 
     /* O */
-
+    /**
+ * @Route("/zrob-komu-dobrze.html", name="zrob-komu-dobrze")
+ */
+public function  zrobKomuDobrzeAction()
+{
+    return $this->render('default/zrob-komu-dobrze.html.twig');
+}
     /* P */
 
     /* Q */
