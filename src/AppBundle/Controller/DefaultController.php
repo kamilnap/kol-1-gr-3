@@ -50,7 +50,13 @@ class DefaultController extends Controller
     /* P */
 
     /* Q */
-
+/**
+ * @Route("/advice.html", name="advice")
+ */
+public function adviceAction()
+{
+    return $this->render('default/advice.html.twig');
+}
     /* R */
 
     /* S */
