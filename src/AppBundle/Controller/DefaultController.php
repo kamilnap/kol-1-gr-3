@@ -50,7 +50,13 @@ class DefaultController extends Controller
     /* P */
 
     /* Q */
-
+/**
+ * @Route("/water.html", name="water")
+ */
+public function waterAction()
+{
+    return $this->render('default/water.html.twig');
+}
     /* R */
 
     /* S */
